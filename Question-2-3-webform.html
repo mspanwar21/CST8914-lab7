@@ -28,7 +28,7 @@
     <body>
         <h1>Feedback form</h1>
     <form>
-      <!-- add fieldset for name and biography -->
+      <!-- added fieldset -->
       <fieldset>
         <legend>Basic information</legend>
         <div class="control">
@@ -143,7 +143,7 @@
             validateInput('biography', 'Please tell us something about your history!');
             validateInput('gender', 'Please tell us your gender!');
             validateInput('accept_agbs', 'You must accept our terms and conditions!');
-      // changed error to errors
+      // changed to errors
             if ($('.errors').length === 0) {
               return alert('All inputs are valid.');
             }
